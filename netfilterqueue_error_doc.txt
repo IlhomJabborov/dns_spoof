@@ -1,0 +1,7 @@
+1  -  sudo apt-get update
+2  -  sudo apt-get install build-essential python2 libnetfilter-queue-dev
+3  -  apt --fix-broken install	(Agar xatolik chiqsa)
+4  -  wget <https://github.com/kti/python-netfilterqueue/archive/master.zip>   
+5  -  unzip master.zip
+6  -  cd python-netfilterqueue-master
+7  -  sudo python3 setup.py install
